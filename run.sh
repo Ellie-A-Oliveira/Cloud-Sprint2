@@ -11,7 +11,7 @@ rm -rf odontoprev-spring
 
 git clone https://github.com/IvesJc/odontoprev-spring.git
 
-mv ../Dockerfile ./odontoprev-spring/Dockerfile
-mv ../docker-compose.yml ./docker-compose.yml
+cp ../Dockerfile ./odontoprev-spring/Dockerfile
+cp ../docker-compose.yml ./docker-compose.yml
 
 docker compose up -d
